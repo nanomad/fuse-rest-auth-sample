@@ -1,0 +1,22 @@
+POST localhost:8080/camel/api/process
+Content-Type: application/json
+Authorization: Basic user password
+
+{
+  "userId": 1,
+  "title": "This is a title",
+  "body": "Blah"
+}
+
+
+
+###
+POST localhost:8080/camel/api/process
+Content-Type: application/json
+
+{
+  "userId": 1,
+  "title": "This is a title",
+  "body": "Blah"
+}
+
