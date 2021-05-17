@@ -1,4 +1,4 @@
-POST localhost:8080/camel/api/process
+POST http://localhost:8080/camel/api/process
 Content-Type: application/json
 Authorization: Basic user password
 
@@ -8,6 +8,9 @@ Authorization: Basic user password
   "body": "Blah"
 }
 
+###
+GET http://localhost:8081/actuator/health
+Content-Type: application/json
 
 
 ###
